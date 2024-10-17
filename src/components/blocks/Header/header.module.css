@@ -1,0 +1,27 @@
+.header {
+  background-color: #161516;
+  color: #ffffff;
+  padding-top: 52px;
+}
+
+.headerWrapper {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+}
+
+.headerTitle {
+  color: #ffffff;
+}
+
+.headerInner {
+  display: flex;
+  align-items: center;
+  gap: 20px;
+}
+
+.headerCounter {
+  display: flex;
+  align-items: center;
+  height: ;
+}
