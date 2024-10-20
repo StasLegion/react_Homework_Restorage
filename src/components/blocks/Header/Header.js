@@ -2,8 +2,12 @@ import React from "react";
 import styles from "./header.module.css";
 import "../../../index.js";
 import Button from "../../../ui/Button/Button.js";
+import { useSelector } from "react-redux";
 
 const Header = () => {
+  const count = useSelector((state) => state.products.counterInBasket);
+
+  const allPrice = useSelector((state) => state.products.allPriceInBasket);
   return (
     <div className={styles.header}>
       <div className="container">
@@ -12,9 +16,9 @@ const Header = () => {
           <div className={styles.headerInner}>
             <div className={styles.headerCounter}>
               <div className="">
-                3 товара
+                {count} товара
                 <br />
-                на сумму 3 500 р
+                на сумму {allPrice} р
               </div>
             </div>
 

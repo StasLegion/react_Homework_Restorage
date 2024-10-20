@@ -1,22 +1,31 @@
 import React from "react";
 import styles from "./card.module.css";
+import ButtonCircle from "../../ui/ButtonCircle/ButtonCircle";
 
-function Card(widhtCard, heightCard) {
-  const inlaneStyle = {
-    widht: widhtCard,
-    height: heightCard,
+function Card({ title, description, price }) {
+  const styleCardProducts = {
+    width: "312px",
+    height: "522px",
+    display: "flex",
+    flexDirection: "column",
   };
+  // Отображение карточек в колонку
+  const styleBasketProducts = {
+    width: "622px",
+    height: "250px",
+    display: "flex",
+    flexDirection: "row",
+  };
+  // Отображение товаров в ряд
 
   return (
-    <div className={styles.card} style={inlaneStyle}>
+    <div className={styles.card} style={styleCardProducts}>
       <img src="" alt="" className="cardPreview" />
-      <h2 className="cardTitle">Устрицы по рокфеллеровски</h2>
-      <p className="cardDiscription">
-        Значимость этих проблем очевидна, что укрепление и развитие структуры.
-      </p>
+      <h2 className="cardTitle">{title}</h2>
+      <p className="cardDiscription">{description}</p>
       <div className="cardBottom">
-        <div className="cardPrice">2 700 р</div>
-        <div className="btn">+</div>
+        <div className="cardPrice">{price} р</div>
+        <ButtonCircle />
       </div>
     </div>
   );

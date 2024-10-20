@@ -1,0 +1,7 @@
+.buttonCircle {
+  align-items: center;
+  cursor: pointer;
+  border: 2px solid orange;
+  border-radius: 50%;
+  width: 20px;
+}

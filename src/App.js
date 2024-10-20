@@ -1,9 +1,11 @@
-import Products from "./Pages/Products";
+// import Products from "./Pages/Products";
+// import Basket from "./Pages/Basket.js";
 
 function App() {
   return (
     <div className="App">
-      <Products />
+      {/* <Products /> */}
+      {/* <Basket /> */}
     </div>
   );
 }
