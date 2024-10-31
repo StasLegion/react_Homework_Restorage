@@ -1,0 +1,52 @@
+.wrapper {
+  background-color: #151615;
+  width: 100vw;
+  height: 100vh;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+.box {
+  width: 460px;
+  height: 340px;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  border: 1px solid #d58c51;
+  background-color: #ffffff;
+}
+
+.inputField {
+  width: 420px;
+  height: 39px;
+  border: 1px solid #d58c51;
+  border-radius: 61px;
+  margin-left: 20px;
+  margin-bottom: 15px;
+  color: #000000;
+  padding-left: 10px;
+  font-size: 18px;
+  font-weight: 400;
+}
+
+.titleInput {
+  font-size: 31px;
+  font-weight: 700;
+  margin: 36px 105px;
+  text-transform: uppercase;
+}
+
+.buttonRegister {
+  width: 200px;
+  height: 42px;
+  background-color: #d58c51;
+  margin: 30px 130px 0 130px;
+  border: none;
+}
+
+.inputRadio {
+  margin-left: 20px;
+  width: 18px;
+  height: 18px;
+}

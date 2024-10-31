@@ -1,6 +1,10 @@
 import styles from "./buttonCircle.module.css";
-function ButtonCircle() {
-  return <div className={styles.buttonCircle}>+</div>;
+function ButtonCircle({ onClickCircle }) {
+  return (
+    <div onClick={onClickCircle} className={styles.buttonCircle}>
+      +
+    </div>
+  );
 }
 
 export default ButtonCircle;

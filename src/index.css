@@ -131,4 +131,30 @@ table {
 .container {
   max-width: 1300px;
   margin: 0 auto;
+  background-color: #151615;
+}
+
+.container-second {
+  width: 900px;
+  margin: 0 auto;
+}
+
+.styleCardProducts {
+  border: 1px solid #d58c51;
+  padding: 42px 20px 36px 20px;
+  width: 312px;
+  height: 522px;
+  display: flex;
+  flex-direction: column;
+}
+
+.styleBasketProducts {
+  display: flex;
+  align-items: center;
+  gap: 40px;
+  border: 1px solid #d58c51;
+  padding: 42px 20px 36px 20px;
+  flex-direction: row;
+  flex-wrap: nowrap;
+  justify-content: center;
 }

@@ -1,0 +1,10 @@
+.footer {
+  border-top: 1px solid #d58c51;
+  padding: 20px 0;
+  background-color: #161516;
+  color: #ffffff;
+}
+
+.footerPrice {
+  color: #d58c51;
+}

@@ -1,0 +1,47 @@
+.wrapper {
+  width: 99vw;
+  height: calc(100vh - 35px);
+  background-color: #151615;
+}
+.currentProductWrapper {
+  display: flex;
+  color: #ffffff;
+  gap: 10vw;
+}
+
+.boxImages {
+  width: 501px;
+  height: 503px;
+  margin-top: 50px;
+  align-items: center;
+  border: 1px #ffffff solid;
+}
+
+.boxDiscription {
+  width: 30vw;
+  padding-top: 30px;
+  margin-top: 50px;
+}
+.currentProductTitle {
+  color: #d58c51;
+  font-size: 30px;
+  font-weight: 500;
+}
+.currentProductDescription {
+  width: 528px;
+  height: 203px;
+  font-size: 14px;
+  margin-bottom: 40px;
+}
+
+.currentProductPrice {
+  font-weight: 700;
+  font-size: 23px;
+}
+
+.btn {
+  width: 200px;
+  height: 42px;
+  background-color: #d58c51;
+  margin-left: 137px;
+}
