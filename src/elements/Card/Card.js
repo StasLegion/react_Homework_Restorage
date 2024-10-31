@@ -4,9 +4,11 @@ import { useNavigate } from "react-router-dom";
 import { useDispatch } from "react-redux";
 import { productsInShoppingCard } from "../../store/features/products/productSlice";
 import { type } from "@testing-library/user-event/dist/type";
+import styles from "./card.module.css";
 
 function Card({
   id,
+  img,
   count = "0",
   title,
   description,
@@ -24,10 +26,10 @@ function Card({
         navigate(`/${id}`);
       }}
     >
-      <img src="" alt="" className="cardPreview" />
-      <h2 className="cardTitle">{title}</h2>
+      <img src={img} alt={title} className={styles.cardPreview} />
+      <h2 className={styles.cardTitle}>{title}</h2>
       <p
-        className="cardDiscription"
+        className={styles.cardDiscription}
         style={{
           display: isShowCount ? "none" : "block",
         }}

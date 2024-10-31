@@ -1,0 +1,14 @@
+.cardPreview {
+  width: 270px;
+  height: 271px;
+}
+
+.cardTitle {
+  font-size: 17px;
+  font-weight: 500;
+}
+
+.cardDiscription {
+  font-size: 14px;
+  font-weight: 400;
+}
